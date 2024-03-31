@@ -1,13 +1,14 @@
 body {
-    background-color: pink;
+    background-color: whitesmoke;
+    font-family: "Annapurna SIL", serif;
 }
 
 a {
-    color: pink;
+    color: rgb(139, 201, 201);
 }
 
 .weather-app {
-    background-color: white;
+    background-color: whitesmoke;
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
@@ -16,38 +17,54 @@ a {
 }
 
 main {
+    color: rgba(0, 0, 0, 0.7)
     padding: 30px 0;
 }
 
 footer {
-    border-top: 1px solid pink;
+    border-top: 1px solid gray;
     padding: 30px 0 0;
     text-align: center;
     font-size: 14px;
 }
 
 header {
-    border-bottom: 1px solid pink;
-    padding: 0 0 30px 0;
+    border-bottom: 1px;
+    padding: 60px 40px;
+    border-radius: 5px;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/808/original/cloud1.jpg?1709001825");
+    background-size: cover;
+    
+}
+
+
+.search-form-input,
+.search-form-button {
+    font-family: "Annapurna SIL", serif;
+    font-size: 16px;
 }
 
 .search-form-input {
-    background-color: pink;
+    background-color: whitesmoke;
     border: none;
     border-radius: 5px;
     width: 80%;
     padding: 20px;
-    font-size: 16px;
 }
 
 .search-form-button {
-    background: orange;
-    color: white;
+    background: #aad0e7;
+    color: whitesmoke;
     padding: 21px;
     border: none;
     border-radius: 5px;
     margin-left: 5px;
-    font-size: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.search-form-button:hover {
+    cursor: pointer;
+    background-color: rgb(164, 206, 207);
 }
 
 .weather-app-data {
@@ -89,5 +106,5 @@ header {
 }
 
 .weather-app-details strong {
-    color: palevioletred;
+    color: rgb(139, 201, 201);
 }
