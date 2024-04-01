@@ -1,18 +1,20 @@
 body {
-    background-color: whitesmoke;
     font-family: "Annapurna SIL", serif;
-}
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/375/original/download.gif?1711944659");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}   
 
 a {
     color: rgb(139, 201, 201);
 }
 
 .weather-app {
-    background-color: whitesmoke;
+    background-color: rgba(133, 86, 234, 0.5);
     max-width: 600px;
     margin: 0 auto;
     padding: 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 16px;
 }
 
@@ -30,13 +32,9 @@ footer {
 
 header {
     border-bottom: 1px;
-    padding: 60px 40px;
+    padding: 40px 40px;
     border-radius: 5px;
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/808/original/cloud1.jpg?1709001825");
-    background-size: cover;
-    
 }
-
 
 .search-form-input,
 .search-form-button {
@@ -53,18 +51,18 @@ header {
 }
 
 .search-form-button {
-    background: #aad0e7;
+    background: purple;
     color: whitesmoke;
     padding: 21px;
     border: none;
     border-radius: 5px;
     margin-left: 5px;
-    transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;    
 }
 
 .search-form-button:hover {
     cursor: pointer;
-    background-color: rgb(164, 206, 207);
+    background-color: plum;
 }
 
 .weather-app-data {
@@ -101,7 +99,7 @@ header {
 
 .weather-app-details {
     font-size: 16px;
-    color: rgba(39, 33, 66, 0.4);
+    color: rgba(255, 255, 255, 0.973);
     line-height: 20px;
 }
 
