@@ -7,7 +7,7 @@ body {
 }   
 
 a {
-    color: rgb(139, 201, 201);
+    color: yellow;
 }
 
 .weather-app {
@@ -38,7 +38,7 @@ header {
 
 .search-form-input,
 .search-form-button {
-    font-family: "Annapurna SIL", serif;
+    font-family: "Kode Mono", monospace;
     font-size: 16px;
 }
 
@@ -46,7 +46,7 @@ header {
     background-color: whitesmoke;
     border: none;
     border-radius: 5px;
-    width: 80%;
+    width: 70%;
     padding: 20px;
 }
 
@@ -86,11 +86,15 @@ header {
 }
 
 .weather-app-unit {
-    margin-top: 16px;
+    font-family: "Silkscreen", sans-serif;
+    color: aqua;
+    margin-top: 12px;
     font-size: 28px;
 }
 
 .weather-app-city {
+    font-family: "Silkscreen", sans-serif;
+    color: chartreuse;
     margin: 0;
     font-size: 38px;
     line-height: 48px;
@@ -104,5 +108,5 @@ header {
 }
 
 .weather-app-details strong {
-    color: rgb(139, 201, 201);
+    color: aqua;
 }
