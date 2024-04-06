@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
+    background-color: purple;
 }   
 
 a {
@@ -120,13 +121,27 @@ header {
 .weather-forecast-date {
     font-family: "Silkscreen", sans-serif;
     color: chartreuse;
-    font-size: 18px;
+    font-size: 19px;
 }
 
-.weather-forecast-min {
-    opacity: 0.6;
+.weather-forecast-icon {
+    font-size: 50px;
 }
+
 
 .weather-forecast-temperatures {
     font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    color: palegoldenrod;
+}
+
+strong {
+    color: yellow;
+    font-weight: bolder;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
 }
