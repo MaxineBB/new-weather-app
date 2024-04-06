@@ -104,8 +104,9 @@ header {
 }
 
 .weather-app-details {
+    font-family: "Kode Mono", monospace;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.973);
+    color: whitesmoke;
     line-height: 20px;
 }
 
@@ -130,10 +131,16 @@ header {
 
 
 .weather-forecast-temperatures {
-    font-size: 13px;
+    font-family: "Kode Mono", monospace;
+    font-size: 15px;
     display: flex;
     justify-content: space-around;
     color: palegoldenrod;
+}
+
+.weather-unit {
+    font-family: "Silkscreen", sans-serif;
+    color: aqua;
 }
 
 strong {
